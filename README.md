@@ -102,9 +102,9 @@ A food delivery rider operating in a flood-prone micro-zone is classified under 
 This ensures workers are protected without overpaying for unnecessary coverage.
 
 
-## Solution Overview – Drizzle
+## Solution Overview – Canopy
 
-### What Drizzle Does
+### What Canopy Does
 
 | Step | What Happens | Why It Matters |
 |------|-------------|----------------|
@@ -133,7 +133,7 @@ Traditional models work like this:
 
 This creates fraud risk. Riders could travel to a rainy zone just to claim compensation.
 
-Drizzle introduces:
+Canopy introduces:
     
     - Income-Linked Presence Model
 
@@ -147,4 +147,4 @@ A rider qualifies only if:
 
 This ensures payouts are linked to genuine working behavior, not opportunistic movement.
 
-Drizzle protects income — not rainfall exploitation.
+Canopy protects income — not rainfall exploitation.

@@ -25,9 +25,6 @@ Food delivery partners working in metro cities.
     - Loss happens in peak earning hours
     - Workers bear full financial risk
 
-## Solution
-Drizzle is an AI-powered, hyperlocal parametric insurance platform that automatically detects real-time disruptions and compensates workers for verified income loss. Using a simple weekly pricing model, smart risk assessment, and instant automated payouts, Drizzle provides a reliable financial safety net without manual claims or paperwork.
-
 ## Persona Definition
 
 ### Delivery Segment Chosen:
@@ -103,3 +100,16 @@ A food delivery rider operating in a flood-prone micro-zone is classified under 
     - Weekly Premium: ₹28
     - If verified disruptions reduce earnings during peak hours, the rider can receive compensation up to ₹1500 for that week.
 This ensures workers are protected without overpaying for unnecessary coverage.
+
+
+## Solution Overview – Drizzle
+
+### What Drizzle Does
+
+| Step | What Happens | Why It Matters |
+|------|-------------|----------------|
+| 1️⃣ Zone Intelligence | City divided into 500m–1km micro-zones | Enables hyperlocal risk pricing |
+| 2️⃣ Risk Scoring | Each zone gets a dynamic weekly risk score | Fair, data-driven premium calculation |
+| 3️⃣ Trigger Monitoring | System tracks rainfall, AQI, curfews, and app outages | Automatic disruption detection |
+| 4️⃣ Income Validation | Verifies real income drop before payout | Prevents false claims |
+| 5️⃣ Instant Payout | Auto-initiated with zero paperwork | Fast financial protection |

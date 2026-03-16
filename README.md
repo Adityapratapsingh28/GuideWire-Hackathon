@@ -177,3 +177,14 @@ Week 5–6:
     - Instant payout simulation
     - Dashboard analytics
     - Final demo and pitch preparation
+
+## What Makes Drizzle Different
+
+    - Hyperlocal micro-zone pricing
+    - Weekly subscription model
+    - Income-linked presence fraud prevention
+    - Zero-touch automated payouts
+    - AI-driven dynamic risk scoring
+
+Drizzle is not just insurance.
+It is a real-time income safety net built specifically for India’s gig workforce.

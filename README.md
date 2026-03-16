@@ -120,3 +120,8 @@ This ensures workers are protected without overpaying for unnecessary coverage.
     - Eligibility requires pre-disruption presence
     - Income loss must be data-validated
     - Fraud detection runs automatically
+
+### Business Model
+    - Simple weekly subscription
+    - Premium based on zone risk
+    - Coverage aligned with weekly earnings cycle

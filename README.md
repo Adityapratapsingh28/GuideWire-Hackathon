@@ -48,3 +48,16 @@ Additionally, rider-specific factors are considered:
     - Trust score (behavioral consistency)
 
 The final risk score determines the premium category.
+
+### What Affects the Weekly Premium
+The weekly premium depends on:
+
+    - Risk level of the rider’s Primary Operating Zone
+
+    - Frequency of disruptions in that zone
+
+    - Expected income exposure during peak hours
+
+    - Coverage limit selected by the rider
+
+    - Higher-risk zones have slightly higher premiums but also offer higher maximum coverage.

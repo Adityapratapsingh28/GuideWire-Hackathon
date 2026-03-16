@@ -20,3 +20,31 @@ Since they work outdoors for long hours, they are directly affected by heavy rai
 
 ### Real-World Disruption Scenario:
 For example, if heavy rainfall causes flooding in certain micro-zones between 6 PM and 10 PM (peak earning hours), delivery orders reduce sharply. The rider may be unable to complete deliveries safely or access pickup locations. As a result, they lose a portion of their daily income without any compensation.
+
+
+## Weekly Premium Model
+
+### How Risk Score is Calculated
+Each micro-zone is assigned a weekly Risk Score (0–100) based on:
+    
+    - Historical frequency of weather disruptions
+
+    - Waterlogging and flood-prone patterns
+
+    - Pollution severity trends
+
+    - Platform outage history
+
+    - Disruption volatility (how unpredictable the zone is)
+
+Additionally, rider-specific factors are considered:
+   
+    - Primary Operating Zone (POZ)
+    
+    - Earning density in that zone
+
+    - Historical working hours
+
+    - Trust score (behavioral consistency)
+
+The final risk score determines the premium category.

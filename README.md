@@ -143,6 +143,11 @@ graph LR
 
 ## 🗺️ Hyperlocal Risk Intelligence
 
+
+<img width="1450" height="1062" alt="image" src="https://github.com/user-attachments/assets/931e351d-0fcb-4eeb-a772-7dba9d79d6eb" />
+
+
+
 ### Micro-zone Grid (500m Resolution)
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/c51157d3-569d-4ac5-a35f-135c3fde279f" />
 
@@ -225,7 +230,122 @@ flowchart TD
 
 # 📱 User Experience Flow
 
+<img width="1574" height="1456" alt="image" src="https://github.com/user-attachments/assets/2a0aa385-66d8-4741-9c14-eddb8543518a" />
 
+## User Journey Map
+
+```mermaid
+journey
+    title Rider Journey with Drizzle
+    section Onboarding
+      Download App: 5: Rider
+      Complete KYC: 3: Rider
+      Select Zone: 4: Rider
+      Pay Premium: 5: Rider, System
+    section Daily Usage
+      View Coverage: 5: Rider
+      Work Normally: 5: Rider
+      Receive Alerts: 4: System
+    section Disruption Event
+      Rain Detected: 5: System
+      Income Drop Verified: 4: System
+      Auto-claim Filed: 5: System
+    section Resolution
+      Claim Approved: 5: System
+      Money Received: 5: Rider, Bank
+      Feedback Given: 4: Rider
+```
+
+# 🔥 What Makes Drizzle Unbeatable
+
+| **Feature**      | **Traditional Insurance** | **Drizzle**                | **Impact**               |
+| ---------------- | ------------------------- | -------------------------- | ------------------------ |
+| Pricing          | One-size-fits-all         | 🎯 Hyperlocal micro-zones  | 40% more affordable      |
+| Claims           | 7–15 days paperwork       | ⚡ Instant auto-payout      | 100% faster              |
+| Fraud Prevention | Reactive investigation    | 🛡️ Income-linked presence | <1% fraud rate           |
+| Coverage         | Fixed amount              | 📊 Dynamic to earnings     | Never over/under insured |
+| Accessibility    | Complex forms             | 📱 2-minute setup          | 5× adoption rate         |
+| Risk Assessment  | Annual review             | 🔄 Real-time updates       | Always accurate          |
+| Customer Support | Call center               | 🤖 AI-powered chat         | 24/7 instant help        |
+
+# 🚀 Tech Stack & Innovation
+```
+const drizzleTech = {
+    frontend: {
+        framework: '⚛️ React 18',
+        styling: '🎨 Tailwind CSS + DaisyUI',
+        state: '🔄 Redux Toolkit',
+        maps: '🗺️ Mapbox GL + React Map GL',
+        pwa: '📱 Workbox + Vite PWA',
+        charts: '📊 Recharts + D3.js',
+        animations: '✨ Framer Motion'
+    },
+    backend: {
+        api: '⚡ FastAPI + Pydantic',
+        database: '🐘 PostgreSQL 15 + TimescaleDB',
+        cache: '🚀 Redis 7',
+        queue: '📨 Celery + RabbitMQ',
+        search: '🔍 Elasticsearch',
+        websockets: '🔌 Socket.io'
+    },
+    ml: {
+        forecasting: '📈 Prophet + ARIMA',
+        riskScoring: '🤖 scikit-learn + XGBoost',
+        anomaly: '🔍 Isolation Forest + Autoencoders',
+        deployment: '🚀 MLflow + ONNX'
+    },
+    devops: {
+        container: '🐳 Docker + Docker Compose',
+        orchestration: '☸️ Kubernetes + Helm',
+        ci/cd: '🔄 GitHub Actions + ArgoCD',
+        monitoring: '📈 Prometheus + Grafana',
+        logging: '📝 ELK Stack',
+        cloud: '☁️ AWS (EKS, RDS, ElastiCache)'
+    },
+    security: {
+        auth: '🔐 JWT + OAuth2',
+        encryption: '🔒 AES-256',
+        compliance: '📋 GDPR + PCI DSS',
+        rate_limit: '⏱️ Redis + Token Bucket'
+    }
+};
+
+```
+
+# 🏁 Development Roadmap
+
+```mermaid
+gantt
+    title Drizzle Development Timeline
+    dateFormat YYYY-MM-DD
+    section Foundation
+    Persona Research & Problem Validation :done, 2024-01-01, 7d
+    Risk Scoring MVP Design :done, 2024-01-08, 7d
+    Premium Logic Implementation :done, 2024-01-15, 7d
+    
+    section Core Features
+    Trigger Automation System :active, 2024-01-22, 14d
+    Fraud Detection Module :2024-02-05, 14d
+    Policy Management System :2024-02-19, 14d
+    Income Validation Engine :2024-02-26, 10d
+    
+    section Integration
+    Weather API Integration :2024-03-04, 5d
+    Payment Gateway (Razorpay) :2024-03-07, 5d
+    Platform API Simulation :2024-03-10, 5d
+    
+    section Polish
+    Payout System Integration :2024-03-04, 10d
+    Analytics Dashboard :2024-03-14, 10d
+    Mobile App Polish :2024-03-18, 7d
+    
+    section Launch
+    Testing & QA :2024-03-20, 5d
+    Documentation :2024-03-22, 3d
+    Pitch Deck & Demo :2024-03-24, 4d
+    Hackathon Submission :milestone, 2024-03-28, 1d
+
+```
 
 
 

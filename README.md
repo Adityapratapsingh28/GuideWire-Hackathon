@@ -298,7 +298,8 @@ gantt
 
 ## 🏗️ System Architecture
 
-<img width="902" height="761" alt="image" src="https://github.com/user-attachments/assets/35e71efd-9681-4c35-9ab6-0ddb81c2f4c8" />
+![Untitled Diagram (2)](https://github.com/user-attachments/assets/b2f9cb27-b0fd-490e-b232-0fe4b94c86f3)
+
 
 
 ## Data Flow Diagram

@@ -10,7 +10,6 @@
   
   ### *Because Rain Shouldn't Mean Empty Plates* 🍽️☔
   
-  [🎥 Watch Demo](#) • [📊 Live Dashboard](#) • [📄 Pitch Deck](#) • [📱 Download App](#)
   
 </div>
 

@@ -461,7 +461,7 @@ gantt
 - Nilesh Kanti
 - Rishit lodha
 - Srijan Chatterji/mukherji
-- Aditya Pratap Singh
+- Aditya Mullipaad
 
 
 

@@ -19,16 +19,11 @@
 ## 📋 **Table of Contents**
 - [The $5B Problem](#-the-5b-problem-nobodys-solving)
 - [Our Innovation](#-our-innovation-income-linked-presence)
-- [Risk Intelligence](#-hyperlocal-risk-intelligence)
 - [Premium Model](#-premium-model-that-makes-sense)
 - [System Architecture](#-system-architecture)
 - [User Experience](#-user-experience-flow)
 - [Tech Stack](#-tech-stack--innovation)
-- [Live Demo](#-live-demo-preview)
 - [Development Roadmap](#-development-roadmap)
-- [Installation](#-installation--setup)
-- [API Documentation](#-api-documentation)
-- [Impact Metrics](#-impact-metrics)
 - [Team](#-team-void-main)
 
 ---
@@ -149,9 +144,121 @@ graph LR
 
 
 ### Micro-zone Grid (500m Resolution)
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/c51157d3-569d-4ac5-a35f-135c3fde279f" />
+
+```mermaid
+mindmap
+  root((Mumbai<br/>Micro-zones))
+    🔥 High Risk
+      🏢 BKC
+        Risk: 85
+        Flood: High
+        AQI: 320
+        💰 Premium: ₹45
+      🏞️ POWAI
+        Risk: 65
+        Flood: High
+        💰 Premium: ₹38
+      🚂 KURLA
+        Risk: 55
+        Waterlog: Yes
+        💰 Premium: ₹32
+    
+    🟡 Medium Risk
+      🏘️ ANDHERI
+        Risk: 45
+        Flood: Medium
+        AQI: 180
+        💰 Premium: ₹28
+      🏪 CHEMBUR
+        Risk: 40
+        AQI: Poor
+        💰 Premium: ₹22
+      🏥 WADALA
+        Risk: 45
+        Hospital: Yes
+        💰 Premium: ₹28
+      🏖️ JUHU
+        Risk: 35
+        Coastal: Yes
+        💰 Premium: ₹22
+    
+    🟢 Low Risk
+      🌉 BANDRA
+        Risk: 25
+        Flood: Low
+        AQI: 120
+        💰 Premium: ₹18
+      🏭 LOWER PAREL
+        Risk: 15
+        Flood: None
+        AQI: 90
+        💰 Premium: ₹15
+      🏘️ GHATKOPAR
+        Risk: 30
+        Status: Stable
+        💰 Premium: ₹18
+      🎬 GOREGAON
+        Risk: 28
+        Studio: Metro
+        💰 Premium: ₹18
+      🏛️ DADAR
+        Risk: 22
+        Transit: High
+        💰 Premium: ₹18
 
 
+
+
+```
+```mermaid
+flowchart TD
+    subgraph Legend
+        L1[🔥 High Risk 70-100] --- L2[🟡 Medium Risk 40-69] --- L3[🟢 Low Risk 0-39]
+    end
+
+    subgraph "MUMBAI MICRO-ZONE MAP - 500m Grid"
+        direction TB
+        
+        subgraph Row1
+            BKC["🏢 BKC<br/><strong>Risk: 85🔥</strong><br/>Flood: High<br/>AQI: 320<br/>💰 ₹45"]
+            ANDHERI["🏘️ ANDHERI<br/><strong>Risk: 45🟡</strong><br/>Flood: Med<br/>AQI: 180<br/>💰 ₹28"]
+            BANDRA["🌉 BANDRA<br/><strong>Risk: 25🟢</strong><br/>Flood: Low<br/>AQI: 120<br/>💰 ₹18"]
+            LOWER_PAREL["🏭 LOWER PAREL<br/><strong>Risk: 15🟢</strong><br/>Flood: None<br/>AQI: 90<br/>💰 ₹15"]
+        end
+        
+        subgraph Row2
+            POWAI["🏞️ POWAI<br/><strong>Risk: 65🔥</strong><br/>Flood: High<br/>💰 ₹38"]
+            KURLA["🚂 KURLA<br/><strong>Risk: 55🔥</strong><br/>Waterlog: Y<br/>💰 ₹32"]
+            CHEMBUR["🏪 CHEMBUR<br/><strong>Risk: 40🟡</strong><br/>AQI: Poor<br/>💰 ₹22"]
+            GHATKOPAR["🏘️ GHATKOPAR<br/><strong>Risk: 30🟢</strong><br/>Stable<br/>💰 ₹18"]
+        end
+        
+        subgraph Row3
+            JUHU["🏖️ JUHU<br/><strong>Risk: 35🟡</strong><br/>Coastal: Y<br/>💰 ₹22"]
+            GOREGAON["🎬 GOREGAON<br/><strong>Risk: 28🟢</strong><br/>Studio: M<br/>💰 ₹18"]
+            WADALA["🏥 WADALA<br/><strong>Risk: 45🟡</strong><br/>Hospital: Y<br/>💰 ₹28"]
+            DADAR["🏛️ DADAR<br/><strong>Risk: 22🟢</strong><br/>Transit: H<br/>💰 ₹18"]
+        end
+    end
+    
+    BKC --- POWAI --- JUHU
+    ANDHERI --- KURLA --- GOREGAON
+    BANDRA --- CHEMBUR --- WADALA
+    LOWER_PAREL --- GHATKOPAR --- DADAR
+    
+    style BKC fill:#ff4444,color:white
+    style POWAI fill:#ff4444,color:white
+    style KURLA fill:#ff4444,color:white
+    style ANDHERI fill:#ffaa33,color:black
+    style CHEMBUR fill:#ffaa33,color:black
+    style JUHU fill:#ffaa33,color:black
+    style WADALA fill:#ffaa33,color:black
+    style BANDRA fill:#4CAF50,color:white
+    style LOWER_PAREL fill:#4CAF50,color:white
+    style GHATKOPAR fill:#4CAF50,color:white
+    style GOREGAON fill:#4CAF50,color:white
+    style DADAR fill:#4CAF50,color:white
+```
 ## 💰 Premium Model That Makes Sense
 ### Weekly Pricing Structure
 | **Risk Level** | **Zone Examples**   | **Weekly Premium** | **Coverage Cap** | **Break-even**        | **Adoption Rate** |
@@ -190,9 +297,9 @@ gantt
     Net Gain :milestone, gain, 23:00, 1m
 ```
 
-# 🏗️ System Architecture
+## 🏗️ System Architecture
 
-<img width="868" height="990" alt="image" src="https://github.com/user-attachments/assets/b026b71d-5f22-4e50-9e4e-faf192a6ec21" />
+<img width="902" height="761" alt="image" src="https://github.com/user-attachments/assets/35e71efd-9681-4c35-9ab6-0ddb81c2f4c8" />
 
 
 ## Data Flow Diagram
@@ -228,7 +335,7 @@ flowchart TD
     style L fill:#4CAF50
 ```
 
-# 📱 User Experience Flow
+## 📱 User Experience Flow
 
 <img width="1574" height="1456" alt="image" src="https://github.com/user-attachments/assets/2a0aa385-66d8-4741-9c14-eddb8543518a" />
 
@@ -312,7 +419,7 @@ const drizzleTech = {
 
 ```
 
-# 🏁 Development Roadmap
+## 🏁 Development Roadmap
 
 ```mermaid
 gantt
@@ -347,6 +454,14 @@ gantt
     Pitch Deck & Demo :2026-07-08, 1d
     Hackathon Submission :milestone, 2026-07-08, 1d
 ```
+
+## Team
+
+- Devanshi Agrawal
+- Nilesh Kanti
+- Rishit lodha
+- Srijan Chatterji/mukherji
+- Aditya Pratap Singh
 
 
 

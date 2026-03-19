@@ -1,4 +1,4 @@
-# 🌧️ **Canopy** – *Income Safety Net for India's Gig Workforce*
+# 🌧️ **Drizzle** – *Income Safety Net for India's Gig Workforce*
 
 <div align="center">
   

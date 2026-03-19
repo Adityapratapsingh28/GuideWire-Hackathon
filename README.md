@@ -1,4 +1,4 @@
-# 🌧️ **Drizzle** – *Income Safety Net for India's Gig Workforce*
+# 🌧️ **Canopy** – *Income Safety Net for India's Gig Workforce*
 
 <div align="center">
   
@@ -78,35 +78,35 @@ graph TD
 
 - Traditional parametric insurance: "It's raining, here's money."
 
-- Drizzle: "You lost income because you couldn't work, here's protection."
+- Canopy: "You lost income because you couldn't work, here's protection."
 
 
 ## The Fraud-Proof Architecture
 ```mermaid
 sequenceDiagram
     participant Rider
-    participant Drizzle
+    participant Canopy
     participant WeatherAPI
     participant IncomeValidator
     participant Bank
     
     Note over Rider,Bank: Pre-Disruption Phase
-    Rider->>Drizzle: Works in Micro-zone (7-day history)
-    Drizzle->>Drizzle: Builds Income Profile
+    Rider->>Canopy: Works in Micro-zone (7-day history)
+    Canopy->>Canopy: Builds Income Profile
     
     Note over Rider,Bank: Disruption Event
-    WeatherAPI->>Drizzle: Heavy Rain Alert 🌧️
-    Drizzle->>Drizzle: Geo-fence affected micro-zones
+    WeatherAPI->>Canopy: Heavy Rain Alert 🌧️
+    Canopy->>Canopy: Geo-fence affected micro-zones
     
     Note over Rider,Bank: Validation Layer (Critical!)
-    Drizzle->>IncomeValidator: Check rider presence BEFORE disruption?
-    IncomeValidator-->>Drizzle: ✅ Verified (Active in zone last 7 days)
+    Canopy->>IncomeValidator: Check rider presence BEFORE disruption?
+    IncomeValidator-->>Canopy: ✅ Verified (Active in zone last 7 days)
     
-    Drizzle->>IncomeValidator: Verify income drop?
-    IncomeValidator-->>Drizzle: ✅ 60% reduction verified
+    Canopy->>IncomeValidator: Verify income drop?
+    IncomeValidator-->>Canopy: ✅ 60% reduction verified
     
     Note over Rider,Bank: Automated Payout
-    Drizzle->>Bank: ₹1,500 instant transfer
+    Canopy->>Bank: ₹1,500 instant transfer
     Bank-->>Rider: 💰 Funds available immediately
     
     Note over Rider,Bank: Fraud Prevention
@@ -124,7 +124,7 @@ graph LR
     B --> C[🚫 Fraud: Riders rush to rainy zone]
     end
     
-    subgraph "Drizzle Model"
+    subgraph "Canopy Model"
     D[Rain in Zone] --> E[Check Pre-disruption Presence]
     E --> F[Verify Income Drop]
     F --> G[✅ Legitimate Riders Only]
@@ -270,7 +270,7 @@ flowchart TD
 
 ```mermaid
 gantt
-    title Raj's Week with Drizzle - ₹28 Premium
+    title Raj's Week with Canopy - ₹28 Premium
     dateFormat HH:mm
     axisFormat %H:%M
     
@@ -318,10 +318,10 @@ graph TD
         C --> D[💣 Beta Platform Drained<br/>Liquidity Pool = ZERO]
     end
     
-    subgraph "DRIZZLE DEFENSE"
+    subgraph "Canopy DEFENSE"
         E[🚨 24-HOUR PIVOT] --> F[🧠 Multi-Layer Anti-Spoofing]
         F --> G[📊 Behavioral • Network • Temporal]
-        G --> H[🛡️ DRIZZLE FORTIFIED<br/>Syndicate Proof]
+        G --> H[🛡️ Canopy FORTIFIED<br/>Syndicate Proof]
     end
     
     style D fill:#ff4444,color:white
@@ -620,7 +620,7 @@ flowchart TD
 
 ```mermaid
 journey
-    title Rider Journey with Drizzle
+    title Rider Journey with Canopy
     section Onboarding
       Download App: 5: Rider
       Complete KYC: 3: Rider
@@ -640,9 +640,9 @@ journey
       Feedback Given: 4: Rider
 ```
 
-# 🔥 What Makes Drizzle Unbeatable
+# 🔥 What Makes Canopy Unbeatable
 
-| **Feature**      | **Traditional Insurance** | **Drizzle**                | **Impact**               |
+| **Feature**      | **Traditional Insurance** | **Canopy**                | **Impact**               |
 | ---------------- | ------------------------- | -------------------------- | ------------------------ |
 | Pricing          | One-size-fits-all         | 🎯 Hyperlocal micro-zones  | 40% more affordable      |
 | Claims           | 7–15 days paperwork       | ⚡ Instant auto-payout      | 100% faster              |
@@ -654,7 +654,7 @@ journey
 
 # 🚀 Tech Stack & Innovation
 ```
-const drizzleTech = {
+const CanopyTech = {
     frontend: {
         framework: '⚛️ React 18',
         styling: '🎨 Tailwind CSS + DaisyUI',
@@ -700,7 +700,7 @@ const drizzleTech = {
 
 ```mermaid
 gantt
-    title Drizzle Development Timeline - GuideWire Hackathon 2026
+    title Canopy Development Timeline - GuideWire Hackathon 2026
     dateFormat YYYY-MM-DD
     axisFormat %b %d
     

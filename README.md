@@ -459,9 +459,9 @@ gantt
 
 - Devanshi Agrawal
 - Nilesh Kanti
-- Rishit lodha
-- Srijan Chatterji/mukherji
-- Aditya Mullipaad
+- Rishit Vats
+- Srijan Sarkar
+- Aditya Pratap Singh
 
 
 
